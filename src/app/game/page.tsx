@@ -34,7 +34,7 @@ const BreakoutGame = () => {
     let rightPressed = false;
     let leftPressed = false;
 
-    const rowCount = 6;
+    const rowCount = 3;
     const columnCount = 10;
     const blockPadding = 5;
     const blockHeight = 70;
