@@ -1,0 +1,12 @@
+{
+  "pagebg": "/game/pagebg.jpg",
+  "gamebg": "/game/gamebg.jpg",
+  "ball": "/game/ball2.webp",
+  "paddle": "/game/paddle.png",
+  "blocks": [
+    "/game/block1.webp",
+    "/game/block2.webp",
+    "/game/block3.webp",
+    "/game/block4.webp"
+  ]
+}
