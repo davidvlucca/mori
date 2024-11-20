@@ -23,8 +23,8 @@ const BreakoutGame = () => {
     // Game variables
     let ballX = canvas.width / 2;
     let ballY = canvas.height - 50;
-    let dx = 4;
-    let dy = -4;
+    let dx = 2;
+    let dy = -2;
     const ballRadius = 10;
 
     const paddleHeight = 10;
@@ -35,9 +35,9 @@ const BreakoutGame = () => {
     let leftPressed = false;
 
     const rowCount = 3;
-    const columnCount = 10;
+    const columnCount = 5;
     const blockPadding = 5;
-    const blockHeight = 70;
+    const blockHeight = 140;
     const totalPadding = (columnCount - 1) * blockPadding;
     const blockWidth = (canvas.width - totalPadding) / columnCount;
     const blockOffsetTop = 0;
