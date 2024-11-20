@@ -36,7 +36,7 @@ const BreakoutGame = () => {
 
     const rowCount = 3;
     const columnCount = 5;
-    const blockPadding = 5;
+    const blockPadding = 4;
     const blockHeight = 140;
     const totalPadding = (columnCount - 1) * blockPadding;
     const blockWidth = (canvas.width - totalPadding) / columnCount;
